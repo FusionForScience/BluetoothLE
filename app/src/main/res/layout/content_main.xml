@@ -17,8 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/devicesConnectedString"
-        android:id="@+id/devicesConnectedString"
+        android:text="@string/devicesInRangeString"
+        android:id="@+id/devicesInRangeString"
         android:layout_marginTop="72dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -27,9 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/connectedDevicesNumber"
-        android:id="@+id/connectedDevicesNumber"
-        android:layout_below="@+id/devicesConnectedString"
+        android:text="@string/inRangeNumber"
+        android:id="@+id/inRangeNumber"
+        android:layout_below="@+id/devicesInRangeString"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp" />
 </RelativeLayout>
